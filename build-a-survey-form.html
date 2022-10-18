@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charser="utf-8"><meta>
+    <title></title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">We are collenting your information :)</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Enter your name: <input required id="name" type="text" placeholder="name"/></label>
+        <label for="email" id="email-label">Enter your email: <input required id="email" type="email" placeholder="email"/></label>
+        <label for="number" id="number-label">Enter your age: <input id="number" type="number" min="13" max="100" placeholder="number"/></label>
+        <select id="dropdown">
+          <option value="1">Select 1</option>
+          <option value="2">Select 2</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label ><input value="1" id="education" type="radio" name="options"/>  Value 1</label>
+        <label ><input value="2" id="work" type="radio" name="options"/>Value 2</label>
+        <input type="checkbox" value="agree"/>
+        <input type="checkbox" value="agree-terms"/>
+      </fieldset>
+      </select>
+      <fieldset>
+        <h2>Tell us about you</h2>
+        <label for="bio">
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
+
