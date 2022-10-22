@@ -1,8 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charser="utf-8"><meta>
+    <link rel="stylesheet" href="styles.css"/>
     <title></title>
   </head>
   <body>
@@ -13,20 +13,21 @@
         <label for="name" id="name-label">Enter your name: <input required id="name" type="text" placeholder="name"/></label>
         <label for="email" id="email-label">Enter your email: <input required id="email" type="email" placeholder="email"/></label>
         <label for="number" id="number-label">Enter your age: <input id="number" type="number" min="13" max="100" placeholder="number"/></label>
+        <h3>Title 2</h3>
         <select id="dropdown">
           <option value="1">Select 1</option>
           <option value="2">Select 2</option>
         </select>
       </fieldset>
       <fieldset>
-        <label ><input value="1" id="education" type="radio" name="options"/>  Value 1</label>
-        <label ><input value="2" id="work" type="radio" name="options"/>Value 2</label>
-        <input type="checkbox" value="agree"/>
-        <input type="checkbox" value="agree-terms"/>
+        <label ><input class="inline" value="1" id="education" type="radio" name="options"/>Value1</label>
+        <label ><input class="inline" value="2" id="work" type="radio" name="options"/>Value2</label>
+        <label ><input class="inline" type="checkbox" value="agree"/>Check2</label>
+        <label ><input class="inline" type="checkbox" value="agree-terms"/>Check1</label>
       </fieldset>
       </select>
       <fieldset>
-        <h2>Tell us about you</h2>
+        <h3>Title 2</h3>
         <label for="bio">
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding..."></textarea>
         </label>
@@ -35,4 +36,3 @@
     </form>
   </body>
 </html>
-
